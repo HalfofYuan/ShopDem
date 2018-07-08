@@ -1,0 +1,33 @@
+#paging{
+	text-align: center;
+	margin: 15px auto;
+}
+#paging>span{
+	font-size: 18px;
+	display: block;
+}
+#paging .red{
+	color: red;
+	font-weight: 800;
+}
+#paging ul{ list-style: none; padding: 0;
+	border-radius:3px;
+	border: 1px solid #1E90FF;
+	display: inline-block;
+}
+#paging li{
+	display: inline-block;
+	width: 50px; height: 30px; line-height: 30px;
+	border-right: 1px solid #1E90FF;
+	cursor: pointer; 
+}
+
+#paging li:nth-last-child(1){border: 0}
+#paging a{text-decoration: none;color: #1E90FF;}
+#paging li.num {
+	width:30px; height: 30px; font-weight: 800;
+}
+#paging li.this{
+	background: #191970;
+	color: white;
+}
